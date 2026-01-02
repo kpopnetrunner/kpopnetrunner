@@ -1,0 +1,6 @@
+<nav class="breadcrumbs">
+  <a href="/">Home</a>
+  {% for crumb in page.url.split("/").slice(1, -1) %}
+    / <span>{{ crumb | replace("-", " ") | capitalize }}</span>
+  {% endfor %}
+</nav>

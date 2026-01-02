@@ -1,0 +1,223 @@
+/* =========================
+   CYBERPUNK COLOR SYSTEM
+   ========================= */
+
+:root {
+  /* Core colors */
+  --neon-yellow: #FCEE09;
+  --cyan-blue: #00B3A4;
+
+  /* Neutrals (for readability) */
+  --bg-main: #0B0E11;
+  --bg-panel: #12161C;
+  --bg-hover: #1A1F27;
+
+  --text-primary: #E6FDFB;
+  --text-secondary: #9FDCD6;
+  --text-muted: #6FAFA8;
+
+  --border-subtle: rgba(0, 179, 164, 0.25);
+  --border-strong: rgba(252, 238, 9, 0.6);
+
+  --focus-ring: rgba(252, 238, 9, 0.4);
+}
+
+/* =========================
+   BASE STYLES
+   ========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Ubuntu, Cantarell, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* =========================
+   TYPOGRAPHY
+   ========================= */
+
+h1, h2, h3, h4 {
+  color: var(--neon-yellow);
+  letter-spacing: 0.04em;
+  margin-top: 1.6em;
+}
+
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--border-strong);
+  padding-bottom: 0.4em;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: var(--text-secondary);
+  max-width: none;
+}
+
+small,
+.muted {
+  color: var(--text-muted);
+}
+
+/* =========================
+   LINKS
+   ========================= */
+
+a {
+  color: var(--cyan-blue);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: var(--neon-yellow);
+  border-bottom-color: var(--neon-yellow);
+}
+
+a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+nav {
+  background: var(--bg-panel);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+nav ul {
+  list-style: none;              /* remove bullets */
+  margin: 0;
+  padding: 0 1rem;
+  display: flex;                 /* horizontal layout */
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: var(--text-secondary);
+}
+
+nav a:hover {
+  background: var(--bg-hover);
+  color: var(--neon-yellow);
+}
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+button,
+.btn {
+  background: transparent;
+  color: var(--neon-yellow);
+  border: 1px solid var(--neon-yellow);
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background: var(--neon-yellow);
+  color: #000;
+}
+
+button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+/* =========================
+   CARDS / PANELS
+   ========================= */
+
+.card {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-subtle);
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.card-title {
+  color: var(--neon-yellow);
+  margin-top: 0;
+}
+
+/* =========================
+   CODE BLOCKS
+   ========================= */
+
+pre,
+code {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
+pre {
+  background: #050709;
+  border-left: 4px solid var(--cyan-blue);
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+code {
+  color: var(--neon-yellow);
+}
+
+/* =========================
+   FORMS
+   ========================= */
+
+input,
+textarea,
+select {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  padding: 0.6rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--neon-yellow);
+  box-shadow: 0 0 0 2px var(--focus-ring);
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  border-top: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  text-align: center;
+}
+
