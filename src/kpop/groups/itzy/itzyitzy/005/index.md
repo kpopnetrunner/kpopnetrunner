@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: ITZY? ITZY! EP5.
+title: ITZY? ITZY! EP.5
 date: 2026-01-13
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: ITZY? ITZY! EP4.
+title: ITZY? ITZY! EP.4
 date: 2026-01-08
 ---
 
