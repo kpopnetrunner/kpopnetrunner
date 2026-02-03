@@ -8,3 +8,4 @@ This is a page about Python Crash Course by Eric Matthes.
 - [Github Repository](https://github.com/kpopnetrunner/python-crash-course)
 - [Chapter 1 - Getting Started](/programming/python/python-crash-course/chapter-01/)
 - [Chapter 2 - Variables and Simple Data Types](/programming/python/python-crash-course/chapter-02/)
+- [Chapter 8 - Functions](/programming/python/python-crash-course/chapter-08/)
