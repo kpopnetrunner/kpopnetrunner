@@ -16,3 +16,4 @@ My reaction to the Kimi ni Todoke anime series.
 - [Kimi ni Todoke S1E9 - New Friend](/anime/kimi-ni-todoke/009/)
 - [Kimi ni Todoke S1E10 - Support](/anime/kimi-ni-todoke/010/)
 - [Kimi ni Todoke S1E11 - Special?](/anime/kimi-ni-todoke/011/)
+- [Kimi ni Todoke S1E12 - Romantic Feelings](/anime/kimi-ni-todoke/012/)

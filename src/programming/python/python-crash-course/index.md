@@ -9,3 +9,4 @@ This is a page about Python Crash Course by Eric Matthes.
 - [Chapter 1 - Getting Started](/programming/python/python-crash-course/chapter-01/)
 - [Chapter 2 - Variables and Simple Data Types](/programming/python/python-crash-course/chapter-02/)
 - [Chapter 8 - Functions](/programming/python/python-crash-course/chapter-08/)
+- [Chpater 9 - Classes](/programming/python/python-crash-course/chapter-09/)
