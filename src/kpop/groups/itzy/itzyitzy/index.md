@@ -24,3 +24,5 @@ My reaction to the ITZY? ITZY! series.
 - [ITZY? ITZY! EP.17](/kpop/groups/itzy/itzyitzy/017/)
 - [ITZY? ITZY! EP.18](/kpop/groups/itzy/itzyitzy/018/)
 - [ITZY? ITZY! EP.19](/kpop/groups/itzy/itzyitzy/019/)
+- [ITZY? ITZY! EP.20](/kpop/groups/itzy/itzyitzy/020/)
+- [ITZY? ITZY! EP.21](/kpop/groups/itzy/itzyitzy/021/)
